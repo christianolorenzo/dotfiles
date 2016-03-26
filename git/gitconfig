@@ -1,0 +1,17 @@
+[user]
+	name = christianolorenzo
+	email = christiano.lorenzo@gmail.com
+
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	rlog = log --pretty=oneline --abbrev-commit --graph --decorate
+
+[core]
+	editor = vim
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = auto

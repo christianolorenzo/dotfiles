@@ -1,0 +1,56 @@
+"vimrc file
+"Name : Lorenzo Christopher
+"Date : 06.02.2016
+
+"Disable Arrow Keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+"choose no compatibility with legacy vi
+set nocompatible
+"syntax highlighting
+syntax on
+"line numbering			   
+set number
+"set UTF-8 Encoding
+set encoding=utf-8
+"display incomplete commands
+set showcmd
+"load filetype-specifi indent files.
+filetype indent on 
+"load filetype-specifi plugins.     
+filetype plugin on 
+"automatic file type detection	   
+filetype on 
+"show the line number on bar
+set ruler  
+"don't wrap lines
+set nowrap
+"number of visual spaces per TAB.
+set tabstop=4
+"number of spaces in tab when editing.		
+set softtabstop=4
+"indents of 4.		
+set shiftwidth=4 
+"screen in 80 colums wide, wrap at 78.       
+set textwidth=80
+set colorcolumn=80
+"tabs are spaces.      
+set expandtab
+"highlight current line.			
+set cursorline 
+"highlight matching[{()}].         
+set showmatch           
+"turn on auto indenting.
+set autoindent
+"turn on smarth indenting.          
+set smartindent
+"enable pathogen
+execute pathogen#infect()
+"forces Vim to source .vimrc file if present in working directory.
+set exrc
+"disable stupid backup and swap files - they trigger too many events
+set nobackup
+set nowritebackup
+set noswapfile
