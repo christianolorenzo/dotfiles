@@ -38,6 +38,8 @@ set textwidth=80
 set colorcolumn=80
 "tabs are spaces.      
 set expandtab
+"round indent to mulitile of 'shiftwidth'
+set shiftround
 "highlight current line.			
 set cursorline 
 "highlight matching[{()}].         
